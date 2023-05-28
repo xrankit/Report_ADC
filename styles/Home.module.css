@@ -1,0 +1,16 @@
+.container {
+  min-height: 22vh;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--bg);
+  color: var(--font);
+  /* background-image: url('https://houseoffirst.com/images/misc/mm_twitch_yellow_matte.gif'); */
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-size: 22%; */
+  background-blend-mode: multiply;
+  /* background: transparent; */
+}

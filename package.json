@@ -1,0 +1,22 @@
+{
+  "name": "medikeeper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "ethers": "^5.6.7",
+    "next": "^12.1.0",
+    "next-pwa": "^5.5.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-tsparticles": "^2.7.1",
+    "styled-components": "^5.3.5",
+    "tsparticles": "^2.7.1",
+    "web3": "^1.7.3",
+    "web3.storage": "^4.2.0"
+  }
+}

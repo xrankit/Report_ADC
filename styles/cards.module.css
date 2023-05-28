@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 95%;
+  max-width: 750px;
+  border-radius: 2rem;
+  box-shadow: 0px 1px 14px 1px #aaa;
+  margin: 1rem auto;
+  padding: 2rem 2rem;
+  /* background-image: url('http://files.gandi.ws/b8/6d/b86de0ea-3be2-43e6-a5c3-b59fb51036a7.gif'); */
+  background-image: url('https://covaxdata.com/wp/wp-content/uploads/2021/09/Blockchain-Color.gif'),
+    url('http://24.media.tumblr.com/d423eb21f1e477fa355326299a4408fd/tumblr_mstilrbN8P1s5jjtzo1_500.gif');
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: darken;
+  background-origin: content-box;
+  backdrop-filter: blur(2px);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 0 12px 0 #aaa;
+  position: absolute;
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.3rem;
+  background-image: url('http://24.media.tumblr.com/d423eb21f1e477fa355326299a4408fd/tumblr_mstilrbN8P1s5jjtzo1_500.gif');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-blend-mode: darken;
+}
+
+@media (max-width: 720px) {
+  .row {
+    flex-direction: column;
+  }
+}
